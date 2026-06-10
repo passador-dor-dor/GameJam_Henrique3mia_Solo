@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1780769559
+::res://::1781087130
 ::res://assets/::1780769559
 Dungeon Tile Set.png::CompressedTexture2D::2010507667895888174::1780705989::1780705989::1::::<><><>0<>0<>be54d28df7614a075137e92b760ba5b1<>res://.godot/imported/Dungeon Tile Set.png-7a95940aaf2ff83ed5182e682543a337.ctex::
 icon.svg::CompressedTexture2D::3682512506373149283::1780703702::1780769559::1::::<><><>0<>0<>ced45376b61b23d8890929b7204539f5<>res://.godot/imported/icon.svg-56083ea2a1f1a4f1e49773bdc6d7826c.ctex::
@@ -28,11 +28,11 @@ IDLE.png::CompressedTexture2D::1306757182754617533::1780705985::1780705986::1:::
 JUMP.png::CompressedTexture2D::4528728362696531444::1780705985::1780705986::1::::<><><>0<>0<>5c6ccfcf830027eb4032d70d0b0e56a1<>res://.godot/imported/JUMP.png-8362e2fcda2a5b70c4e309882de97c15.ctex::
 RUN.png::CompressedTexture2D::2166749860117166324::1780705985::1780705986::1::::<><><>0<>0<>53592cc3b39d4ee2d2734588449ff2df<>res://.godot/imported/RUN.png-1890c719743cbdb4379054d886ab2ece.ctex::
 WALK.png::CompressedTexture2D::5650347531264655683::1780705985::1780705986::1::::<><><>0<>0<>b9974bbf69054405d0c39b0a66a43d15<>res://.godot/imported/WALK.png-481bae4a4d0c569216ccacf4529f26b7.ctex::
-::res://scenes/::1780769555
+::res://scenes/::1780774851
 Killzone.tscn::PackedScene::7906976547889908758::1780769552::0::1::::<><><>0<>0<><>::uid://b0tkp564v57la::::res://scripts/killzone.gd
-level.tscn::PackedScene::102983048391838143::1780766601::0::1::::<><><>0<>0<><>::uid://3v51dj3tipu1::::res://assets/Dungeon Tile Set.png<>uid://nyad4t60rnfc::::res://scenes/player.tscn<>uid://dkwg0pj3ijo7w::::res://scenes/Killzone.tscn<>uid://br85glimwmqgv::::res://scenes/plataforma.tscn
+level.tscn::PackedScene::102983048391838143::1780774851::0::1::::<><><>0<>0<><>::uid://3v51dj3tipu1::::res://assets/Dungeon Tile Set.png<>uid://nyad4t60rnfc::::res://scenes/player.tscn<>uid://dkwg0pj3ijo7w::::res://scenes/Killzone.tscn<>uid://br85glimwmqgv::::res://scenes/plataforma.tscn
 plataforma.tscn::PackedScene::3649588306660449249::1780759209::0::1::::<><><>0<>0<><>::uid://3v51dj3tipu1::::res://assets/Dungeon Tile Set.png
-player.tscn::PackedScene::962006944744598296::1780769555::0::1::::<><><>0<>0<><>::uid://rk3refsnrntw::::res://player.gd<>uid://dr4x47ofndx0v::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/IDLE.png<>uid://dsojnue5m36y7::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/JUMP.png<>uid://d2jei1sd2l6uo::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/WALK.png
+player.tscn::PackedScene::962006944744598296::1780769555::0::1::::<><><>0<>0<><>::uid://rk3refsnrntw::::res://scripts/player.gd<>uid://dr4x47ofndx0v::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/IDLE.png<>uid://dsojnue5m36y7::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/JUMP.png<>uid://d2jei1sd2l6uo::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/WALK.png
 ::res://scripts/::1780769555
 killzone.gd::GDScript::4181000533743632534::1780755351::0::1::::<>Area2D<><>0<>0<><>::
 player.gd::GDScript::1215584772334309032::1780756302::0::1::::<>CharacterBody2D<><>0<>0<><>::

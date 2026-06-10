@@ -891,10 +891,10 @@ tracks/0/path = NodePath(".:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.0009999999, 3),
-"transitions": PackedFloat32Array(1, 1, 1),
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(968, -162), Vector2(1422, -169), Vector2(1422, -339)]
+"values": [Vector2(1417, -161), Vector2(1422, -339)]
 }
 
 [sub_resource type="Animation" id="Animation_2r41h"]
@@ -939,7 +939,7 @@ tile_map_data = PackedByteArray("AAD+/wAAAAACAAEAAAD//wAAAAACAAEAAAAAAAAAAAACAAE
 tile_set = SubResource("TileSet_epypp")
 
 [node name="decoracao" type="TileMapLayer" parent="TileMap" unique_id=845580595]
-tile_map_data = PackedByteArray("AAAFAP7/AAANAAoAAAAFAP//AAANAAsAAAD///n/AAAHAAwAAAD///r/AAAHAA0AAAAAAPn/AAAIAAwAAAAAAPr/AAAIAA0AAAABAPn/AAAJAAwAAAABAPr/AAAJAA0AAAAaAPr/AAAHAAoAAAD/////AAAEAA0AAAAAAP//AAAFAA0AAAABAP//AAAGAA0AAAAiAPL/AAAIAAoAAABCAOX/AAAMAAkAAABVAOH/AAACAAwAAABVAOL/AAACAA0AAABTAOH/AAADAAwAAABKAO3/AAAKAA4AAABLAO3/AAALAA4AAABMAO3/AAAMAA4AAABNAO3/AAANAA4AAAASAPL/AAAKAAwAAAAoAPr/AAALAAwAAAAeAOH/AAAKAA4AAAAfAOH/AAALAA4AAAAgAOH/AAAMAA4AAAAhAOH/AAANAA4AAAA5AO3/AAABAAwAAAA6AO3/AAACAAwAAAA6AO7/AAACAA0AAAA5AOf/AAAEAA0AAAA6AOf/AAAFAA0AAAA7AOf/AAAGAA0AAAARAP//AAAKAAwAAAA=")
+tile_map_data = PackedByteArray("AAAFAP7/AAANAAoAAAAFAP//AAANAAsAAAD///n/AAAHAAwAAAD///r/AAAHAA0AAAAAAPn/AAAIAAwAAAAAAPr/AAAIAA0AAAABAPn/AAAJAAwAAAABAPr/AAAJAA0AAAAaAPr/AAAHAAoAAAD/////AAAEAA0AAAAAAP//AAAFAA0AAAABAP//AAAGAA0AAAAiAPL/AAAIAAoAAABVAOH/AAACAAwAAABVAOL/AAACAA0AAABTAOH/AAADAAwAAABKAO3/AAAKAA4AAABLAO3/AAALAA4AAABMAO3/AAAMAA4AAABNAO3/AAANAA4AAAASAPL/AAAKAAwAAAAoAPr/AAALAAwAAAAeAOH/AAAKAA4AAAAfAOH/AAALAA4AAAAgAOH/AAAMAA4AAAAhAOH/AAANAA4AAAA5AO3/AAABAAwAAAA6AO3/AAACAAwAAAA6AO7/AAACAA0AAAA5AOf/AAAEAA0AAAA6AOf/AAAFAA0AAAA7AOf/AAAGAA0AAAARAP//AAAKAAwAAABCAOT/AAANAAoAAABCAOX/AAANAAsAAAA=")
 tile_set = SubResource("TileSet_rnjyy")
 
 [node name="mortais" type="TileMapLayer" parent="TileMap" unique_id=375423340]
@@ -976,14 +976,14 @@ shape = SubResource("RectangleShape2D_w8frs")
 position = Vector2(86, 31)
 
 [node name="elevador" parent="." unique_id=1287941412 instance=ExtResource("4_mx8sn")]
-position = Vector2(968, -162)
+position = Vector2(1417, -161)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="elevador" unique_id=532833074]
 libraries/ = SubResource("AnimationLibrary_klq6b")
 autoplay = &"RESET"
 
 [node name="plataforma" parent="." unique_id=1169899727 instance=ExtResource("4_mx8sn")]
-position = Vector2(968, -162)
+position = Vector2(1417, -161)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="plataforma" unique_id=300371337]
 libraries/ = SubResource("AnimationLibrary_klq6b")

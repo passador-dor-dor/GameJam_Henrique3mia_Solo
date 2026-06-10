@@ -1,0 +1,84 @@
+**2.1 Visão geral**
+
+- **Nome do jogo**
+
+dungeon hustlers
+
+- **Premissa:** Uma ou duas frases descrevendo o jogo — o que o jogador faz, em que mundo, com qual objetivo
+
+uma masmora misteriosa que nao tem fim aparente mas fazer cada segmento o mais rapido possivel traz a impressao de se aproximar aos poucos do fim
+
+- **Referências de gameplay:** Cite dois ou três jogos que inspiraram o projeto e o que foi absorvido de cada um. Insira print dos jogos
+
+O jogo sera construido em volta da mecanica de Speedrun, em decorar e criar um percurso e o executar com o maximo de perfeição possivel
+
+- **Divisão de tarefas:** A divisão das tarefas envolvendo: Documentação, Personagem e Level
+
+Tudo feito por mim aka passador :P
+
+---
+
+**2.2 Personagem principal**
+
+- **Nome e descrição:** Quem é o personagem e qual é sua história no contexto do jogo
+
+um renomado cavaleiro sem nome, amaldiçoado a explorar uma masmora, quase sem fim, que se ele for rapido o suficiente, ele pode quebrar a maldição ao ir mais rapido doque ela consegue criar areas na masmorra
+
+- **Movimentação:** Velocidade, altura do pulo, sensação de controle — o personagem é pesado ou ágil? Por quê?
+
+meio rapida (150) e com um pulo medio mas controlado (300) sendo agil e com controle, deixando o limite da eficiencia da movimentação apenas a o quao preciso o player é em seus imputs
+
+- **Habilidades especiais:** Se o personagem tiver alguma mecânica além do movimento básico, descreva aqui
+
+NAO IMPLEMENTADO dash/ ou double jump. possibilitando criar mais cenarios que exijam mais precisão e desafio ao usuario 
+
+---
+
+**2.3 Mecânicas**
+
+- **Mecânica central:** Qual é a regra principal do jogo? O que o jogador faz repetidamente?
+
+parkour desviando de obstaculos, progressivamente mais dificeis em uma masmorra aparentemente infinita para escapar dela 
+
+- **Objetivo:** O que define vitória na fase?
+
+chegar na porta "magica" que o levara para a proxima area 
+
+- **Obstáculos e desafios:** O que impede o jogador de chegar ao objetivo?
+
+espinhos, serras e areas de dificil acesso que requerem que ele pense em soluçoes fora da caixa em puzzles
+
+- **Coletáveis:** Existem itens coletáveis? Qual é o propósito deles — pontuação, desbloqueio, narrativa, power up?
+
+não planejo colocar coletaveis no geral mas power ups que gerem mecanicas, como um double jump ou dash 
+
+- **Conexão com o tema:** Como a mecânica central reflete *What's behind the door*?
+
+a mecanica reflete o misterio de como a masmorra se expande e se ela tem fim, junto com marcar o fim de um nivel e o começo de outro
+
+--
+
+**2.4 Inimigos**
+
+O jogo se arrisca na premissa de não ter inimigos no senso comum como, monstros ou algo assim mas se limitar apenas aos espinhos e serras presentes nas fazes, com inspiração dessa base de Celeste e Super Meat Boy
+
+---
+
+**2.5 Level design da fase**
+
+- **Descrição geral:** Em que ambiente se passa a fase? Qual é a atmosfera?
+
+Em uma masmorra escura. mas iluminada o suficiente para você ver os seus arredores e estar ciente dos perigos que estão nele
+
+- **Estrutura:** A fase é linear, ramificada ou tem caminhos alternativos?
+
+a fase é linear até a passagem secreta que, com um caminho mais arriscado recompensa o jogador, o possibilitando terminar o nivel mais rapido do que a pessoa que segue pela rota obvia e mais facil.
+
+- **Curva de dificuldade:** Como a fase ensina o jogador gradualmente? Lembre-se do que vimos no 1TRI: zonas de respiro, ação e aumento gradativo de dificuldade
+
+o parkour e o aprendisado dele é dado em partes, primeiro com as duas plataformas que são faceis o suficientes mas com as plataformas sequencias na parede exigem mais experiencia assim apos ela uma nova zona de respiro se apresenta com a indecisão do player de qual caminho ele deve seguir, assim no caminho oculto ele 
+
+- **Condição de vitória:** O que o jogador precisa fazer para terminar a fase?
+
+a fase é marcada pela porta na pilha de caixas que sozinha chama a atenção do player para ela, que sera futuramente usada para marcar o fim de fazes 
+

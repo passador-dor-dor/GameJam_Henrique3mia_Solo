@@ -3,7 +3,11 @@ extends CharacterBody2D
 const SPEED = 150.0
 const JUMP_VELOCITY = -300.0
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
-	
+
+
+@export var RUN_MULTIPLIER : float = 1.35
+var multiplier : float = 1.35
+
 	
 func die():
 	get_tree().reload_current_scene()
@@ -11,6 +15,11 @@ func die():
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
+	
+	if Input.is_action_pressed("shift"):
+		multiplier = RUN_MULTIPLIER
+	else:
+		multiplier = 1.0
 
 	if Input.is_action_just_pressed("reset"): 
 		get_tree().reload_current_scene()
@@ -25,16 +34,20 @@ func _physics_process(delta: float) -> void:
 	elif direction < 0:
 		animated_sprite_2d.flip_h = true
 # Altera a animação
-	if is_on_floor():
-		if direction == 0:
+	if is_on_floor():			
+		if Input.is_action_pressed("shift") and direction:
+			animated_sprite_2d.play("run")
+		elif direction == 0:
 			animated_sprite_2d.play("idle")
 		else:
 			animated_sprite_2d.play("walk")
 	else:
 		animated_sprite_2d.play("jump")
+		
+
 # Apply movement
 	if direction:	
-		velocity.x = direction * SPEED
+		velocity.x = direction * SPEED * multiplier
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
