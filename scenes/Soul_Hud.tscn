@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://be06ltr1w4o61"]
 
-[ext_resource type="Script" uid="uid://clehkvjde4gy8" path="res://Souls_Hud.gd" id="1_rv8yy"]
+[ext_resource type="Script" uid="uid://clehkvjde4gy8" path="res://scripts/Souls_Hud.gd" id="1_rv8yy"]
 [ext_resource type="Texture2D" uid="uid://m1jsi63sgxt4" path="res://assets/e019378e3e8c407.png" id="2_20i06"]
 
 [node name="Soul_Hud" type="CanvasLayer" unique_id=1944388478]

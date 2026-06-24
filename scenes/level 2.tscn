@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://bvys3l4x3w6ir" path="res://scenes/enemy.tscn" id="6_hqhmd"]
 [ext_resource type="Script" uid="uid://dduv84ak3y7w4" path="res://scripts/next.gd" id="7_hsdmi"]
 [ext_resource type="PackedScene" uid="uid://sv3swn1261uk" path="res://scenes/soul.tscn" id="10_5j085"]
-[ext_resource type="PackedScene" uid="uid://be06ltr1w4o61" path="res://Soul_Hud.tscn" id="10_a3wao"]
+[ext_resource type="PackedScene" uid="uid://be06ltr1w4o61" path="res://scenes/Soul_Hud.tscn" id="10_a3wao"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ir8iy"]
 texture = ExtResource("2_hh0fu")
