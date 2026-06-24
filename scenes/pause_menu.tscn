@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://ci11ibjexjqpf"]
+
+[ext_resource type="Script" uid="uid://dh0dtsi0k4xrw" path="res://scripts/pause_menu.gd" id="1_n87rw"]
+
+[node name="PauseMenu" type="CanvasLayer" unique_id=922781796]
+process_mode = 3
+layer = 0
+script = ExtResource("1_n87rw")
+
+[node name="Control" type="Control" parent="." unique_id=802727525]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="Control" unique_id=1983592398]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.3764706)
+
+[node name="menu" type="Button" parent="Control" unique_id=1917202701]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -44.0
+offset_top = 40.0
+offset_right = 53.0
+offset_bottom = 71.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "main menu"
+
+[node name="continuar" type="Button" parent="Control" unique_id=1554150786]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -34.0
+offset_top = -2.0
+offset_right = 43.0
+offset_bottom = 29.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "continue"
+
+[node name="Label" type="Label" parent="Control" unique_id=1946825610]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -26.0
+offset_top = -70.0
+offset_right = 31.0
+offset_bottom = -47.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Paused"
+
+[connection signal="pressed" from="Control/menu" to="." method="_on_menu_pressed"]
+[connection signal="pressed" from="Control/continuar" to="." method="_on_button_pressed"]

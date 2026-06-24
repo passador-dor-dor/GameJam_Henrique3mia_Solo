@@ -1,11 +1,19 @@
-63f7b34db8d8cdea90c76aacccf841ec
-::res://::1781087130
-::res://assets/::1780769559
+78098b89c88a74ebe8c20117b8754620
+::res://::1782331050
+GDD.txt::TextFile::-1::1780774839::0::1::::<><><>0<>0<><>::
+Souls_Hud.gd::GDScript::5553620152345603633::1782330383::0::1::::<>CanvasLayer<><>0<>0<><>::
+Soul_Hud.tscn::PackedScene::2720688398022644536::1782330601::0::1::::<><><>0<>0<><>::uid://clehkvjde4gy8::::res://Souls_Hud.gd<>uid://m1jsi63sgxt4::::res://assets/e019378e3e8c407.png
+::res://assets/::1782300219
+all purrfect man!.jpg::CompressedTexture2D::7440280714328689461::1781696255::1782251891::1::::<><><>0<>0<>ebd4ff0dd4aaa09c441cb3acd08ba1a8<>res://.godot/imported/all purrfect man!.jpg-5180423ed64cd1723730d2a7341ef458.ctex::
+canvas.png::CompressedTexture2D::5441004423541011165::1782248984::1782248985::1::::<><><>0<>0<>a81b480a48d071c4096bf7c7937293f3<>res://.godot/imported/canvas.png-aa470cb9edfe91c0a54e6c5fa29d4c26.ctex::
+Dash.png::CompressedTexture2D::442414222762379854::1782252650::1782252651::1::::<><><>0<>0<>38a691592301ec26cf1a99aa14f49f64<>res://.godot/imported/Dash.png-0274a80d3ae2ede206f5fb7805f12757.ctex::
 Dungeon Tile Set.png::CompressedTexture2D::2010507667895888174::1780705989::1780705989::1::::<><><>0<>0<>be54d28df7614a075137e92b760ba5b1<>res://.godot/imported/Dungeon Tile Set.png-7a95940aaf2ff83ed5182e682543a337.ctex::
+e019378e3e8c407.png::CompressedTexture2D::896519011859376143::1782300219::1782300219::1::::<><><>0<>0<>7a834d07a73e4396e889856945d6349f<>res://.godot/imported/e019378e3e8c407.png-4baa31a2402484e48298413687962328.ctex::
 icon.svg::CompressedTexture2D::3682512506373149283::1780703702::1780769559::1::::<><><>0<>0<>ced45376b61b23d8890929b7204539f5<>res://.godot/imported/icon.svg-56083ea2a1f1a4f1e49773bdc6d7826c.ctex::
+sex-dungeon.jpeg::CompressedTexture2D::413492638232592227::1781696675::1781696676::1::::<><><>0<>0<>c11e67df4d3e65ab4308051cc4d14ea0<>res://.godot/imported/sex-dungeon.jpeg-07d1bdd630d16d07157f3748fcaf71cf.ctex::
 ::res://assets/Knight 2D Pixel Art/::1780705985
 License.txt::TextFile::-1::1780705985::0::1::::<><><>0<>0<><>::
-::res://assets/Knight 2D Pixel Art/Sprites/::1780705985
+::res://assets/Knight 2D Pixel Art/Sprites/::1781694987
 ::res://assets/Knight 2D Pixel Art/Sprites/without_outline/::1780705986
 ATTACK 1.png::CompressedTexture2D::5578015280158761282::1780705985::1780705986::1::::<><><>0<>0<>22215e9ce2126da8e4b388b098b340b9<>res://.godot/imported/ATTACK 1.png-ab347bd8d9b4d6190ee804933a38ecb2.ctex::
 ATTACK 2.png::CompressedTexture2D::1749374377691072555::1780705985::1780705986::1::::<><><>0<>0<>c8a8b3c74f7c21dc57239a92404d1ef7<>res://.godot/imported/ATTACK 2.png-1b21777cae5fe673482ce5f194816f3b.ctex::
@@ -28,11 +36,28 @@ IDLE.png::CompressedTexture2D::1306757182754617533::1780705985::1780705986::1:::
 JUMP.png::CompressedTexture2D::4528728362696531444::1780705985::1780705986::1::::<><><>0<>0<>5c6ccfcf830027eb4032d70d0b0e56a1<>res://.godot/imported/JUMP.png-8362e2fcda2a5b70c4e309882de97c15.ctex::
 RUN.png::CompressedTexture2D::2166749860117166324::1780705985::1780705986::1::::<><><>0<>0<>53592cc3b39d4ee2d2734588449ff2df<>res://.godot/imported/RUN.png-1890c719743cbdb4379054d886ab2ece.ctex::
 WALK.png::CompressedTexture2D::5650347531264655683::1780705985::1780705986::1::::<><><>0<>0<>b9974bbf69054405d0c39b0a66a43d15<>res://.godot/imported/WALK.png-481bae4a4d0c569216ccacf4529f26b7.ctex::
-::res://scenes/::1780774851
+::res://scenes/::1782330855
+clear.tscn::PackedScene::8304592475351459607::1781869755::0::1::::<><><>0<>0<><>::uid://cajn6bl0vyr7q::::res://scripts/clear.gd
+enemy.tscn::PackedScene::3911074997927861805::1782302362::0::1::::<><><>0<>0<><>::uid://kq5fn3q1la05::::res://scripts/enemy.gd<>uid://cjrwsvnitq74t::::res://assets/canvas.png<>uid://dkwg0pj3ijo7w::::res://scenes/Killzone.tscn
+item.tscn::PackedScene::3475625335797747090::1782252719::0::1::::<><><>0<>0<><>::uid://cw87lmc1yiey1::::res://scripts/item.gd<>uid://gkkq6id8tcq5::::res://assets/Dash.png
 Killzone.tscn::PackedScene::7906976547889908758::1780769552::0::1::::<><><>0<>0<><>::uid://b0tkp564v57la::::res://scripts/killzone.gd
-level.tscn::PackedScene::102983048391838143::1780774851::0::1::::<><><>0<>0<><>::uid://3v51dj3tipu1::::res://assets/Dungeon Tile Set.png<>uid://nyad4t60rnfc::::res://scenes/player.tscn<>uid://dkwg0pj3ijo7w::::res://scenes/Killzone.tscn<>uid://br85glimwmqgv::::res://scenes/plataforma.tscn
+level 2.tscn::PackedScene::3578875401682910629::1782330855::0::1::::<><><>0<>0<><>::uid://d1o2v0akddn0d::::res://scripts/level 2.gd<>uid://3v51dj3tipu1::::res://assets/Dungeon Tile Set.png<>uid://dqk2opaqt2f80::::res://scenes/clear.tscn<>uid://dkwg0pj3ijo7w::::res://scenes/Killzone.tscn<>uid://bprvbn7snqj4e::::res://scenes/item.tscn<>uid://ci11ibjexjqpf::::res://scenes/pause_menu.tscn<>uid://nyad4t60rnfc::::res://scenes/player.tscn<>uid://bvys3l4x3w6ir::::res://scenes/enemy.tscn<>uid://dduv84ak3y7w4::::res://scripts/next.gd<>uid://sv3swn1261uk::::res://scenes/soul.tscn<>uid://be06ltr1w4o61::::res://Soul_Hud.tscn
+level.tscn::PackedScene::102983048391838143::1782327112::0::1::::<><><>0<>0<><>::uid://bu0fk5ysm3eu0::::res://scripts/level.gd<>uid://3v51dj3tipu1::::res://assets/Dungeon Tile Set.png<>uid://nyad4t60rnfc::::res://scenes/player.tscn<>uid://dqk2opaqt2f80::::res://scenes/clear.tscn<>uid://dkwg0pj3ijo7w::::res://scenes/Killzone.tscn<>uid://br85glimwmqgv::::res://scenes/plataforma.tscn<>uid://dduv84ak3y7w4::::res://scripts/next.gd
+menu_inicial.tscn::PackedScene::997160886084804127::1781867506::0::1::::<><><>0<>0<><>::uid://bn8d63adp26kn::::res://scripts/menu_inicial.gd<>uid://f5kfs25wyr5d::::res://assets/sex-dungeon.jpeg
+pause_menu.tscn::PackedScene::5389618932898622651::1782324466::0::1::::<><><>0<>0<><>::uid://dh0dtsi0k4xrw::::res://scripts/pause_menu.gd
 plataforma.tscn::PackedScene::3649588306660449249::1780759209::0::1::::<><><>0<>0<><>::uid://3v51dj3tipu1::::res://assets/Dungeon Tile Set.png
-player.tscn::PackedScene::962006944744598296::1780769555::0::1::::<><><>0<>0<><>::uid://rk3refsnrntw::::res://scripts/player.gd<>uid://dr4x47ofndx0v::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/IDLE.png<>uid://dsojnue5m36y7::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/JUMP.png<>uid://d2jei1sd2l6uo::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/WALK.png
-::res://scripts/::1780769555
-killzone.gd::GDScript::4181000533743632534::1780755351::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript::1215584772334309032::1780756302::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::962006944744598296::1782327112::0::1::::<><><>0<>0<><>::uid://rk3refsnrntw::::res://scripts/player.gd<>uid://dr4x47ofndx0v::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/IDLE.png<>uid://dsojnue5m36y7::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/JUMP.png<>uid://d2jei1sd2l6uo::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/WALK.png<>uid://do8djc3x73b8b::::res://assets/Knight 2D Pixel Art/Sprites/without_outline/RUN.png
+soul.tscn::PackedScene::1308484515222399170::1782325203::0::1::::<><><>0<>0<><>::uid://dqg0x8pw6scfy::::res://scripts/soul.gd<>uid://m1jsi63sgxt4::::res://assets/e019378e3e8c407.png
+::res://scripts/::1782331000
+clear.gd::GDScript::4792265518370867332::1781704766::0::1::::<>Area2D<><>0<>0<><>::
+enemy.gd::GDScript::736749646018018920::1782251125::0::1::::<>CharacterBody2D<><>0<>0<><>::
+item.gd::GDScript::6387083615391891418::1781870256::0::1::::<>Node2D<><>0<>0<><>::
+killzone.gd::GDScript::4181000533743632534::1781703250::0::1::::<>Area2D<><>0<>0<><>::
+level 2.gd::GDScript::9014751448243930001::1782331000::0::1::::<>Node2D<><>0<>0<><>::
+level.gd::GDScript::3842130056818914225::1781867129::0::1::::<>Node2D<><>0<>0<><>::
+main_menu.gd::GDScript::5471795604070934548::1781866492::0::1::::<>Button<><>0<>0<><>::
+menu_inicial.gd::GDScript::3367239098272098565::1781867350::0::1::::<>Control<><>0<>0<><>::
+next.gd::GDScript::7412451648791460041::1781866492::0::1::::<>Button<><>0<>0<><>::
+pause_menu.gd::GDScript::7702410440388670556::1782324586::0::1::::<>CanvasLayer<><>0<>0<><>::
+player.gd::GDScript::1215584772334309032::1782327090::0::1::::<>CharacterBody2D<><>0<>0<><>::
+soul.gd::GDScript::8296230571375490890::1782330855::0::1::::<>Area2D<><>0<>0<><>::

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://sv3swn1261uk"]
+
+[ext_resource type="Script" uid="uid://dqg0x8pw6scfy" path="res://scripts/soul.gd" id="1_jnmxf"]
+[ext_resource type="Texture2D" uid="uid://m1jsi63sgxt4" path="res://assets/e019378e3e8c407.png" id="2_dt1lx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fd6r3"]
+size = Vector2(17.5, 26.5)
+
+[node name="soul" type="Area2D" unique_id=1653664104]
+script = ExtResource("1_jnmxf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1189462475]
+position = Vector2(0.25, 3.25)
+shape = SubResource("RectangleShape2D_fd6r3")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1107114814]
+position = Vector2(1.0000114, 2.0000076)
+scale = Vector2(0.062916696, 0.062916696)
+texture = ExtResource("2_dt1lx")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

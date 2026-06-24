@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://ohbdg11j2wxr"]
+
+[ext_resource type="Script" uid="uid://bn8d63adp26kn" path="res://scripts/menu_inicial.gd" id="1_1lqws"]
+[ext_resource type="Texture2D" uid="uid://f5kfs25wyr5d" path="res://assets/sex-dungeon.jpeg" id="1_40mju"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1lqws"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eg8ak"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nn1uv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_twj80"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ssr06"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hs7ea"]
+
+[node name="MenuInicial" type="Control" unique_id=1090019280]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1lqws")
+
+[node name="GameBackground" type="TextureRect" parent="." unique_id=2048484151]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_40mju")
+
+[node name="play 1 Button" type="Button" parent="GameBackground" unique_id=1885125237]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -36.0
+offset_top = -15.5
+offset_right = 36.0
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 27
+theme_override_styles/normal = SubResource("StyleBoxFlat_1lqws")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_eg8ak")
+theme_override_styles/hover = SubResource("StyleBoxFlat_nn1uv")
+text = "play level 1"
+
+[node name="TituloJogoLabel" type="Label" parent="GameBackground" unique_id=1275534389]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.324
+anchor_right = 0.5
+anchor_bottom = 0.324
+offset_left = -152.0
+offset_top = -19.951996
+offset_right = 156.0
+offset_bottom = 22.048004
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 30
+text = "DUNGEON HUSTLERS"
+
+[node name="play 2 Button" type="Button" parent="GameBackground" unique_id=579686373]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.499
+anchor_top = 0.56600004
+anchor_right = 0.499
+anchor_bottom = 0.56600004
+offset_left = -71.84802
+offset_top = -18.768036
+offset_right = 72.15198
+offset_bottom = 18.231964
+theme_override_font_sizes/font_size = 27
+theme_override_styles/normal = SubResource("StyleBoxFlat_twj80")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ssr06")
+theme_override_styles/hover = SubResource("StyleBoxFlat_hs7ea")
+text = "play level 2"
+
+[connection signal="pressed" from="GameBackground/play 1 Button" to="." method="_on_play_1_button_pressed"]
+[connection signal="pressed" from="GameBackground/play 2 Button" to="." method="_on_play_2_button_pressed"]

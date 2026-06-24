@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bprvbn7snqj4e"]
+
+[ext_resource type="Script" uid="uid://cw87lmc1yiey1" path="res://scripts/item.gd" id="1_ttk8k"]
+[ext_resource type="Texture2D" uid="uid://gkkq6id8tcq5" path="res://assets/Dash.png" id="2_s8enn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ys7tt"]
+size = Vector2(19, 19)
+
+[node name="Item" type="Node2D" unique_id=1580688628]
+script = ExtResource("1_ttk8k")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=875934650]
+position = Vector2(0.5000007, 0.49999782)
+scale = Vector2(0.023977434, 0.024804179)
+texture = ExtResource("2_s8enn")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1578627672]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=274998072]
+position = Vector2(1, 0)
+shape = SubResource("RectangleShape2D_ys7tt")
+
+[node name="esc" type="Label" parent="." unique_id=865930960]
+visible = false
+offset_left = -65.0
+offset_top = -44.0
+offset_right = 64.0
+offset_bottom = -21.0
+text = "dash with \"Rmb\""
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

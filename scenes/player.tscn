@@ -120,6 +120,11 @@ region = Rect2(672, 0, 96, 84)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2hs0m"]
 animations = [{
+"frames": [],
+"loop": 1,
+"name": &"dash",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sweqy")
@@ -142,7 +147,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nvl01")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 5.0
 }, {
@@ -162,7 +167,7 @@ animations = [{
 "duration": 0.9,
 "texture": SubResource("AtlasTexture_u1c27")
 }],
-"loop": true,
+"loop": 1,
 "name": &"jump",
 "speed": 5.0
 }, {
@@ -191,7 +196,7 @@ animations = [{
 "duration": 0.6,
 "texture": SubResource("AtlasTexture_jej6c")
 }],
-"loop": true,
+"loop": 1,
 "name": &"run",
 "speed": 5.0
 }, {
@@ -220,13 +225,13 @@ animations = [{
 "duration": 0.5,
 "texture": SubResource("AtlasTexture_dx0e4")
 }],
-"loop": true,
+"loop": 1,
 "name": &"walk",
 "speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jm5j8"]
-size = Vector2(9, 22)
+size = Vector2(9, 21)
 
 [node name="player" type="CharacterBody2D" unique_id=387986999]
 script = ExtResource("1_hqtel")
@@ -234,16 +239,20 @@ RUN_MULTIPLIER = 1.5
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1448621460]
 zoom = Vector2(3, 3)
-position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=561818835]
-position = Vector2(-1, 2)
+position = Vector2(1, 0)
 scale = Vector2(0.5833333, 0.5833333)
 sprite_frames = SubResource("SpriteFrames_2hs0m")
-animation = &"run"
-frame_progress = 0.6164916
+animation = &"jump"
+frame_progress = 0.2740722
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=637929834]
-position = Vector2(-0.5, 3)
+position = Vector2(1, -1)
 shape = SubResource("RectangleShape2D_jm5j8")
+
+[node name="dashtimer" type="Timer" parent="." unique_id=330591968]
+wait_time = 0.12
+
+[connection signal="timeout" from="dashtimer" to="." method="_on_dashtimer_timeout"]
